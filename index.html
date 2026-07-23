@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de Clientes</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="contenedor">
+
+    <h2>Registro de Clientes</h2>
+
+    <form id="formulario">
+
+        <label>Nombre</label>
+        <input type="text" id="nombre">
+
+        <label>Apellido</label>
+        <input type="text" id="apellido">
+
+        <label>Rol</label>
+        <input type="text" id="rol">
+
+        <button type="submit">Guardar Cliente</button>
+
+    </form>
+
+    <h3 id="saludo"></h3>
+
+</div>
+
+<script src="cliente_modelo.js"></script>
+<script src="api_modelo.js"></script>
+<script src="controlador.js"></script>
+
+</body>
+</html>
